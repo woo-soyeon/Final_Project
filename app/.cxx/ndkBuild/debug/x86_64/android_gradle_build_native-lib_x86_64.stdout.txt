@@ -1,0 +1,3 @@
+[x86_64] Compile++      : native-lib <= main.cpp
+[x86_64] Prebuilt       : libopencv_java4.so <= C:/Users/user/AndroidStudioProjects/final_project/sdk/native/jni/../libs/x86_64/
+[x86_64] SharedLibrary  : libnative-lib.so

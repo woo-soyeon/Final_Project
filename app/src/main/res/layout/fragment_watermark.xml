@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="690dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView_watermark"
+            android:layout_width="690dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent" />
+
+    </FrameLayout>
+
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="#ffffff" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingRight="10px">
+
+            <ImageButton
+                android:id="@+id/imageButtonNone"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/none"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_vertical"
+                android:text="            서울"/>
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark1b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark2b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_vertical"
+                android:text="            전주"/>
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark3b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark13b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark14b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_vertical"
+                android:text="           남이섬"/>
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark4b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_vertical"
+                android:text="            강릉"/>
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark5b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark11b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_vertical"
+                android:text="         호미곳"/>
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark12b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark15b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_vertical"
+                android:text="            부산"/>
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark9b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton17"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark17b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_vertical"
+                android:text="           제주도"/>
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark6b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark7b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark8b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton16"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark16b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_vertical"
+                android:text="    오페라하우스"/>
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark10b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+            <ImageButton
+                android:id="@+id/imageButton18"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/mark18b"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

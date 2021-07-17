@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/gallery"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="30dp"
+            android:background="@android:color/transparent"
+            android:padding="0sp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/gallerybtn" />
+
+        <ImageButton
+            android:id="@+id/watermark"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_below="@+id/button"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="70dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/watermarkmain" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
